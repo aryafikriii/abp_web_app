@@ -1,4 +1,4 @@
-# Garage Booking Website
+# Bengkel Booking Website
 
 This project focuses on developing a website for booking bengkel services. The website aims to provide users with a convenient platform to book bengkel services online. As a front-end developer in this project, my role is to design and implement the user interface of the website.
 
@@ -27,33 +27,32 @@ The Bengkel Booking Website will be built using the following technologies:
 - HTML
 - CSS
 - JavaScript
+- XAMPP (Apache, MySQL, PHP)
 
 ## Project Setup
 
-To set up the project locally, please follow these steps:
+To set up the project with XAMPP, please follow these steps:
 
-1. Clone the repository to your local machine.
+1. Install XAMPP on your local machine by downloading it from the official website.
+
+2. Clone the project repository into the appropriate directory in the XAMPP installation folder (e.g., `htdocs`).
 
 ```
 git clone [[repository-url](https://github.com/aryafikriii/abp_web_app)]
 ```
 
-2. Install the necessary dependencies.
+3. Start the XAMPP control panel and start the Apache and MySQL modules.
+
+4. Access phpMyAdmin through the XAMPP control panel and create a new database for the project.
+
+5. Import the database schema and sample data from the project's database files, if provided.
+
+6. Configure the project's database connection settings in the relevant configuration file (e.g., `config.php`).
+
+7. Access the website in your browser.
 
 ```
-npm install
-```
-
-3. Start the development server.
-
-```
-npm start
-```
-
-4. Access the website in your browser.
-
-```
-http://localhost:3000
+http://localhost/[project-folder]
 ```
 
 ## Contact
