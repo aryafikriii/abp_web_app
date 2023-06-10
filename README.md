@@ -38,7 +38,7 @@ To set up the project with XAMPP, please follow these steps:
 2. Clone the project repository into the appropriate directory in the XAMPP installation folder (e.g., `htdocs`).
 
 ```
-git clone [[repository-url](https://github.com/aryafikriii/abp_web_app)]
+git clone https://github.com/aryafikriii/abp_web_app
 ```
 
 3. Start the XAMPP control panel and start the Apache and MySQL modules.
